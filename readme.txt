@@ -3,7 +3,7 @@ Client's IP address = '137.48.184.170'
 IP address for spoofing = '31.13.93.35'
 
 Who knows what at the beginning:
-The client knows:
+The client knows: 
     i) the onion service's URL.
     ii) The IP address of the 2nd guard node.
 
