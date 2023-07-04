@@ -102,25 +102,6 @@ def startSpoof():
 def download():
     return send_file('example.file', attachment_filename='example.file')
 
-@app.route('/download1', methods=['POST', 'GET'])
-def download1():
-    return send_file('example1.file', attachment_filename='example1.file')
-
-@app.route('/download2', methods=['POST', 'GET'])
-def download2():
-    return send_file('example2.file', attachment_filename='example2.file')
-
-@app.route('/download3', methods=['POST', 'GET'])
-def download3():
-    return send_file('example3.file', attachment_filename='example3.file')
-
-@app.route('/download4', methods=['POST', 'GET'])
-def download4():
-    return send_file('example4.file', attachment_filename='example4.file')
-
-@app.route('/download5', methods=['POST', 'GET'])
-def download5():
-    return send_file('example5.file', attachment_filename='example5.file')
 @app.route('/retransmit', methods=['POST'])
 def retransmit():
   receiveddata = request.get_data()
