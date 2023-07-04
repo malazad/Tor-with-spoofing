@@ -19,7 +19,7 @@ receive, _ = serversocket.recvfrom(1024)
 spoof_src_ip = receive.decode("utf-8")
 
 '''
-The 2nd guard node will respond with a random port which will be used to receive the 
+The 2nd guard node will respond with a random port which will be used to receive the  
 spoofed packets at the 2nd guard node. 
 '''
 spoof_dst_port = 3333
