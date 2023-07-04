@@ -90,7 +90,6 @@ lost_packet_seq = []
 for i in range(102400):
     if i not in packet_received:
         lost_packet_seq.append(i)
-#print(lost_packet_seq)
 print(len(lost_packet_seq))
 
 recovery_start = time.time()
