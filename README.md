@@ -13,7 +13,7 @@ The client knows:
     i) the onion service's URL.
     ii) The IP address of the 2nd guard node.
 
-The 2nd gurad node knows the client's IP address.
+The 2nd guard node knows the client's IP address.
 
 The onion server knows nothing about the client and the 2nd guard node.
 
